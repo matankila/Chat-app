@@ -1,0 +1,22 @@
+<% include partials/joinHeader %>
+
+<div class="centered-form__form">
+    <form action="/chat">
+        <div class="form-field">
+            <h3>Chat</h3>
+        </div>
+        <div class="form-field"> 
+            <label>User Name</label>
+            <input name="userName" type="text" placeholder="Enter Name" autofocus autocomplete="off" required> 
+        </div>
+        <div class="form-field">
+            <label>Room Name</label> 
+            <input name="roomName" type="text" placeholder="Enter Room Name" autocomplete="off" required> 
+        </div>
+        <div class="form-field"> 
+            <button>Join</button> 
+        </div>
+    </form>
+</div>
+
+<% include partials/joinFooter %>
